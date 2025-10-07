@@ -1,8 +1,8 @@
 FROM ubuntu:24.04
 
-LABEL maintainer="Hiroyuki Mishima <hmishima@nagasaki-u.ac.jp"
+LABEL maintainer="Hiroyuki Mishima <hmishima@nagasaki-u.ac.jp>"
 LABEL version="1.0"
-LABEL description="Container for PanPop commands as standalone commands."
+LABEL description="Container for PanPop (https://github.com/starskyzheng/panpop/)"
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PATH="/app/bin:/opt/bcftools-1.22:${PATH}"
