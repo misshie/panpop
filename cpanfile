@@ -1,2 +1,5 @@
 requires 'YAML';
-requires 'MCE::Loop';
+requires 'MCE';
+requires 'MCE::Shared';
+requires 'Tie::CharArray';
+
